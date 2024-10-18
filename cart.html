@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/08b62dd8cd.js" crossorigin="anonymous"></script>
+    <title>Bookstore</title>
+    <link rel="stylesheet" href="bookstore.css">
+</head>
+<body>
+    <section id="header">
+        <div class="logo">
+            <a href="#"><img src="../media/logo3.png" class="logo" alt="Bookstore Logo"></a>
+        </div>
+        <nav>
+            <ul id="navbar">
+                <li><a href="mainpage.html">Shop</a></li>
+                <li><a href="#">Invoice</a></li>
+                <li><a class="active"  href="cart.html"><i class="ri-shopping-cart-fill"></i></a></li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody id="cart-items"></tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="Subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Subtotal:</td>
+                    <td><span id="cart-subtotal">0.00 JMD</span></td>
+                </tr>
+                <tr>
+                    <td>Taxes:</td>
+                    <td><span id="cart-taxes">$0.00 JMD</span></td>
+                </tr>
+                <tr>
+                    <td>Total:</td>
+                    <td><span id="cart-total">$0.00 JMD</span></p></td>
+                </tr>
+
+            </table>
+            <div class="checkout-section">
+                <button id="checkout" class="checkout-btn">CheckOut</button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="cart.js"></script>
+</body>
+</html>
+
+
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="../media/logo.jpg" alt="Bookstore Logo">
+        <h4>Contact</h4>
+        <p><strong>Address:</strong> 237 Old Hope Road - University of Technology</p>
+        <a href="mailto:yourid@utech.edu.jm?subject=Comments%20and%20Queries">Send us your comments and queries</a>
+        <p><strong>Phone:</strong> 1-(876) 786-7967</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="ri-facebook-line" aria-label="Facebook"></i>
+                <i class="ri-instagram-line" aria-label="Instagram"></i>
+                <i class="ri-pinterest-fill" aria-label="Pinterest"></i>
+                <i class="ri-youtube-fill" aria-label="YouTube"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h4>About Us</h4>
+        <h4>Abigail Bembridge</h4>
+        <p>ID: 2305624</p>
+        <p>Module Code:</p>
+        <p>Individual Assignment #2</p>
+        <p>Class: Wednesday @8AM</p>
+    </div>
+    <div class="col">
+        <h4>My Account</h4>
+        <a href="#">login In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+    </div>
+    <div class ="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div classs ="row">
+            <img src="../media/appstore.png" alt="">
+            <img src="../media/googleplay.png" alt="">
+        </div>
+    </div>
+    <div class="copyright">
+        <p>@ 2024, Abigail Bembridge </p>
+    </div>                                                                                                                                                                                                                            
+</footer>
+
+
+
+<script src="login.js"></script>
+<script src="bookstore.js"></script>
+</body>
+</html>

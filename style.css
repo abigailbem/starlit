@@ -1,0 +1,64 @@
+/* General layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5DC; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Login Container */
+#login-container {
+    background-color: #4B3D32; /* Deep espresso brown for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+/* Form Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;      color: #F5F5DC; 
+}
+
+/* Input Fields */
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    background-color: #FFFFFF; 
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8B1B2B; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6F161E; 
+}
+
+.hidden {
+    display: none;
+}
+
+
+#error-message {
+    color: #D4AF37; 
+    display: none; 
+}
+
